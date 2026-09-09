@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability Reporting
+    url: https://github.com/sagarnikam123/suchi-chintan/security/policy
+    about: Please report security issues privately according to our Security Policy.
