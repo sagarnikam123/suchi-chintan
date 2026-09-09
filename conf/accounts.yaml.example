@@ -1,0 +1,66 @@
+# AWS Accounts Registry
+# Copy this file to accounts.yaml and fill in your real account details.
+#
+# cp accounts.yaml.example accounts.yaml
+#
+# Each entry needs:
+#   name:       Human-readable label (shown in logs)
+#   account_id: 12-digit AWS account ID
+#   profile:    AWS CLI profile name from ~/.aws/credentials or ~/.aws/config
+#
+# Optional fields:
+#   alias:        Short alias for the account
+#   enabled:      Set to false to skip this account (default: true)
+#   access_level: Note about permission scope (informational only)
+#
+# Regions are resolved dynamically at runtime via AWS APIs.
+# No static region list needed — scripts auto-discover available regions per service.
+
+accounts:
+  # --- Production ---
+  - name: "Production"
+    account_id: "111111111111"
+    profile: "111111111111_AdministratorAccess"
+    alias: "prod"
+
+  - name: "Production-Network"
+    account_id: "222222222222"
+    profile: "222222222222_AdministratorAccess"
+    alias: "prod-network"
+
+  # --- Staging / QA ---
+  - name: "Staging"
+    account_id: "333333333333"
+    profile: "333333333333_AdministratorAccess"
+    alias: "staging"
+
+  - name: "QA"
+    account_id: "444444444444"
+    profile: "444444444444_AdministratorAccess"
+    alias: "qa"
+
+  # --- Dev ---
+  - name: "Development"
+    account_id: "555555555555"
+    profile: "555555555555_AdministratorAccess"
+    alias: "dev"
+
+  # --- Shared / Ops ---
+  - name: "Shared Services"
+    account_id: "666666666666"
+    profile: "666666666666_AdministratorAccess"
+    alias: "shared"
+
+  # --- Example: account without credentials yet ---
+  - name: "New Account"
+    account_id: "777777777777"
+    profile: "777777777777_AdministratorAccess"
+    alias: "new"
+    enabled: false  # set to true once credentials are configured
+
+  # --- Example: limited access ---
+  - name: "Restricted"
+    account_id: "888888888888"
+    profile: "888888888888_eks_devops"
+    alias: "restricted"
+    access_level: "eks-devops-only"
