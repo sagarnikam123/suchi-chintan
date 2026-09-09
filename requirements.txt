@@ -1,6 +1,6 @@
 # Core dependencies
 boto3>=1.34.0
-pyyaml>=6.0
+pyyaml>=6.0.3
 
 # Optional / Tool dependencies
 requests>=2.31.0      # For tools/backup_amg_workspaces.py
