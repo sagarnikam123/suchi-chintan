@@ -1,10 +1,15 @@
 # suchi-chintan
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python: 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![AWS SDK: boto3](https://img.shields.io/badge/AWS%20SDK-boto3-orange.svg)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 [![CI](https://github.com/sagarnikam123/suchi-chintan/actions/workflows/ci.yml/badge.svg)](https://github.com/sagarnikam123/suchi-chintan/actions/workflows/ci.yml)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![Python: 3.9+](https://img.shields.io/badge/python-3.9+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Tested with: pytest](https://img.shields.io/badge/tested%20with-pytest-0A9EDC.svg?logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![Platform: AWS](https://img.shields.io/badge/platform-AWS-232F3E.svg?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![AWS SDK: boto3](https://img.shields.io/badge/AWS%20SDK-boto3-FF9900.svg?logo=amazon-aws&logoColor=white)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+[![Safety: Read-Only](https://img.shields.io/badge/safety-Read--Only%20Safe-2ea44f.svg)](#aws-cost--safety-disclaimer)
+[![Architecture: Multi-Account](https://img.shields.io/badge/architecture-Multi--Account-7057ff.svg)](#confaccountsyaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 
 **suchi-chintan** is an automated cloud governance and discovery tool designed to catalog AWS resources across multiple accounts and regions, analyze utilization patterns, detect financial waste, and guide remediation.
 
