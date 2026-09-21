@@ -3,7 +3,7 @@
 [![CI](https://github.com/sagarnikam123/suchi-chintan/actions/workflows/ci.yml/badge.svg)](https://github.com/sagarnikam123/suchi-chintan/actions/workflows/ci.yml)
 [![Python: 3.9+](https://img.shields.io/badge/python-3.9+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Tested with: pytest](https://img.shields.io/badge/tested%20with-pytest-0A9EDC.svg?logo=pytest&logoColor=white)](https://docs.pytest.org/)
-[![Platform: AWS](https://img.shields.io/badge/platform-AWS-232F3E.svg?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![Platform: AWS](https://img.shields.io/badge/platform-AWS-FF9900.svg?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![AWS SDK: boto3](https://img.shields.io/badge/AWS%20SDK-boto3-FF9900.svg?logo=amazon-aws&logoColor=white)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 [![Safety: Read-Only](https://img.shields.io/badge/safety-Read--Only%20Safe-2ea44f.svg)](#aws-cost--safety-disclaimer)
 [![Architecture: Multi-Account](https://img.shields.io/badge/architecture-Multi--Account-7057ff.svg)](#confaccountsyaml)
@@ -66,6 +66,7 @@ The framework operates in three core phases:
 ## Quick Start
 
 ### Prerequisites
+
 - Python 3.9 or higher
 - Valid AWS credentials configured in `~/.aws/credentials` or `~/.aws/config`
 
@@ -192,6 +193,7 @@ Bundle architecture, inventory, and audit artifacts into Open Knowledge Framewor
 ```bash
 python tools/generate_okf_bundle.py --account-id 111111111111
 ```
+
 *See [docs/generating-okf-bundles.md](docs/generating-okf-bundles.md) for bundling specifications.*
 
 ---
